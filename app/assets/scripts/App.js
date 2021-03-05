@@ -7,6 +7,8 @@ if (module.hot) {
     module.hot.accept()
 }
 
+new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
+new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
+
 let mobileMenu = new MobileMenu()
-let revealOnScroll = new RevealOnScroll()
 let stickyHeader = new StickyHeader()
